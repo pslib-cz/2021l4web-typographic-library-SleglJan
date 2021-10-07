@@ -22,7 +22,7 @@ standard blockquote syntax is:
 </blockquote>
 ```
 
-### BUTTONS
+### Buttons
 
 #### Works for
 
@@ -34,7 +34,7 @@ Buttons can be disabled by using either
 `<button disabled>`
 `<input class="button" disabled>`
 
-### IMAGES 
+### Images
 ```html
 <figure>
  <img src="#" alt="alt">
