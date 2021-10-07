@@ -41,3 +41,5 @@ Buttons can be disabled by using either
  <figcaption>Description</figcaption>
 </figure>
 ```
+### Darkmode
+Darkmode is supported by @mediaquery (prefers-color-scheme: dark), which uses the prefered color scheme set by OS. 
