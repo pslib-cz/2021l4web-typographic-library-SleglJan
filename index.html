@@ -6,17 +6,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Typographic-library</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header class="">
-        <h1 class="">Typographic-library</h1>
+    <header>
+        <nav>
+<div class="nav__content">
+                <h1 class="logo">Typographic-library</h1>
+                <ul class="menu">
+                    <li class="menu__item">
+                        <a href="#nadpis">Nadpis</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#stat">Stať</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#uvozovky">Uvozovky</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#tlacitka">Tlačítka</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#seznamy">Seznamy</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#tabulky">Tabulky</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#kod">Kód</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#img">Obrázky</a>
+                    </li>
+                </ul>
+</div >
+        </nav>
     </header>
     <main>
-        <section class="">
+        <section class="container nadpis" id="nadpis">
             <h2>Nadpis</h2>
 
-            <h1>Nadpis #h1</h1>
+            <h1 class="uppercase">Nadpis #h1</h1>
             <h2>Nadpis #h2</h2>
             <h3>Nadpis #h3</h3>
             <h4>Nadpis #h4</h4>
@@ -24,21 +55,25 @@
             <h6>Nadpis #h6</h6>
         </section>
 
-        <section class="">
+        <section class="container stat" id="stat">
             <h2>Stať</h2>
-                <div>
-                    <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. <u>Ducimus, officiis.</u> Nihil quis modi doloribus
-                    hic <s>Semporibus</s>, eveniet iusto <a href="https://www.youtube.com/watch?v=0bZ0hkiIKt0">sus</a>, autem sequi <b>repellat adipisci doloremque</b> sed dignissimos
+            <div>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. <u>Ducimus, officiis.</u> Nihil quis modi
+                    doloribus
+                    hic <s>Semporibus</s>, eveniet iusto <a href="https://www.youtube.com/watch?v=0bZ0hkiIKt0">sus</a>,
+                    autem sequi <b>repellat adipisci doloremque</b> sed dignissimos
                     architecto deleniti deserunt! <i>Tenetur?</i>
-                    </p>
-                    <p>
-                    <small>Lorem ipsum</small> <mark>dolor sit</mark> amet consectetur adipisicing <time datetime="2021-01-29">29. Ledna 2021</time>. Atque quisquam, reprehenderit, voluptate quod
-                    illum tempore eaque ratione laudantium molestias doloribus aut aliquid error. Nulla, autem blanditiis!
-                    </p>
-                </div>
+                </p>
+                <p>
+                    <small>Lorem ipsum</small> <mark>dolor sit</mark> amet consectetur adipisicing <time
+                        datetime="2021-01-29">29. Ledna 2021</time>. Atque quisquam, reprehenderit, voluptate quod
+                    illum tempore eaque ratione laudantium molestias doloribus aut aliquid error. Nulla, autem
+                    blanditiis!
+                </p>
+            </div>
         </section>
-        <section class="">
+        <section class="container uvozovky" id="uvozovky">
             <h2>Uvozovky</h2>
             <div>
                 <q>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</q> </br>
@@ -53,26 +88,95 @@
                 <span class="quote-author">Mark Twain</span>
             </blockquote>
         </section>
-        <section class="">
+        <section class="container tlacitka" id="tlacitka">
             <h2>Tlačítka</h2>
+
             <div>
-                <ul>
-                    <li>
-
-    <a class="button">
-        <button>
-        <input type="submit">
-        <input type="reset">
-        <input type="button">
-        <div class="button">
-    
-                    </li>
-                </ul>
+                <button class="button">Tlačítko</button>
+                <button class="button" disabled>Tlačítko</button>
+                <input type="reset button" value="Tlačítko">
+                <input type="submit button" disabled value="Tlačítko">
             </div>
-
-        
+        </section>
+        <section class="container seznamy" id="seznamy">
+            <h2>Seznamy</h2>
+            <div class="seznamy__flex">
+                <div>
+                    <h3>Neuspořádaný seznam</h2>
+                        <ul class="list">
+                            <li class="list__item">Seznam 1</li>
+                            <li class="list__item">Seznam 2</li>
+                            <li class="list__item">Seznam 3</li>
+                            <li class="list__item">Seznam 4 </li>
+                        </ul>
+                </div>
+                <div>
+                    <h3>Číslovaný seznam</h2>
+                        <ol class="list">
+                            <li class="list__item">Číslovaný seznam</li>
+                            <li class="list__item">Číslovaný seznam</li>
+                            <li class="list__item">Číslovaný seznam</li>
+                            <li class="list__item">Číslovaný seznam</li>
+                        </ol>
+                </div>
+            </div>
+        </section>
+        <section class="container tabulky" id="tabulky">
+            <h2>Tabulky</h2>
+            <table>
+                <thread>
+                    <tr>
+                        <th>Pozice</th>
+                        <th>Strana</th>
+                        <th>Počet získaných hlasů</th>
+                    </tr>
+                </thread>
+                <tr>
+                    <td>1.</td>
+                    <td>ANO 2011</td>
+                    <td>1 500 113</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>Občanská demokratická strana</td>
+                    <td>572 962</td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td>Česká pirátská strana</td>
+                    <td>546 393</td>
+                </tr>
+                <tr>
+                    <td>4.</td>
+                    <td>Svob.a př.dem.-T.Okamura (SPD)</td>
+                    <td>538 574</td>
+                </tr>
+            </table>
+        </section>
+        <section class="container kod" id="kod">
+            <h2>Kód</h2>
+            <pre>
+            <code>
+while (alive) {
+    eat();
+    sleep();
+    code();
+    repeat();
+}
+            </code>
+        </pre>
+        </section>
+        <section class="container img" id="img">
+            <h2>Obrázky</h2>
+            <figure>
+                <img src="./img/img1.jpg" alt="Předvolební kampaně jsou ve finálním stádiu">
+                <figcaption>Předvolební kampaně jsou ve finálním stádiu</figcaption>
+            </figure>
         </section>
     </main>
+    <footer>
+        <p>BY <a href="https://slegljan.cz">Šlégl Jan</a></p>
+    </footer>
 </body>
 
 </html>
