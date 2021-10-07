@@ -11,13 +11,7 @@ Download style.css and link it to your HTML page by link:css
 Library uses Hind Madurai as text font and Montserrat for headlines. 
 #### Usable markdown tags
 `<u>`, `<s>`, `<i>`, `<b>`, `<time>`, `<mark>`, `<small>`, `<strong>`, `<em>`, `<a>`
-### QUOTES AND BLOCKQUOTES
-
-#### Quotes
-
-standard quote tag `<q>` is „quote“
-
-#### Blockquotes
+### Blockquotes
 
 standard blockquote syntax is:
 
