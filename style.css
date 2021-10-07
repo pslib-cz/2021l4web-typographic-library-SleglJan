@@ -308,4 +308,7 @@ header {
   code {
     color: var(--css-Dark);
   }
+  footer a {
+    color: var(--css-Primary-color);
+  }
 }
