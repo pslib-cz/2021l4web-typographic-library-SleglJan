@@ -40,7 +40,7 @@ Buttons can be disabled by using either
 `<button disabled>`
 `<input class="button" disabled>`
 
-###IMAGES 
+### IMAGES 
 ```html
 <figure>
  <img src="#" alt="alt">
