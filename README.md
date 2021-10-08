@@ -5,7 +5,10 @@ Link to **[demo](https://pslib-cz.github.io/2021l4web-typographic-library-SleglJ
 ## Description
 Basic style sheet library for use in smaller www projects.
 ## Implementation
-Download style.css and link it to your HTML page by link:css
+Download style.css in docs folder and link it to your HTML page by link:css
+```html
+<link rel="stylesheet" href="style.css">
+```
 ## Docs
 ### Typography
 Library uses Hind Madurai as text font and Montserrat for headlines. 
